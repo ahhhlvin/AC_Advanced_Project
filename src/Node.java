@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Created by alvin2 on 12/5/15.
  * Alvin Kuang
@@ -5,14 +7,8 @@
  */
 public class Node
 {
-    Node data;
-    char[] letters = new char[26];
 
+    Node[] children = new Node[26];;
+    boolean isWord = false;
 
-    public Node()
-    {
-        for (int i = 0; i < 26; i++) {
-            this.letters[i] = i + 41;
-        }
-    }
 }

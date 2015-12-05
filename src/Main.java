@@ -18,7 +18,7 @@
         public static final String DICTIONARY_FILE = "/usr/share/dict/words";
 
         /**
-         * Returns true if 'string' consists entirely of the letters A through Z.
+         * Returns true if 'string' consists entirely of the children A through Z.
          */
         public static boolean isAlphabetic(String string) {
             for (int i = 0; i < string.length(); ++i) {
