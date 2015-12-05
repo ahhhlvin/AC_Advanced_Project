@@ -7,25 +7,34 @@ public class WordTrie
 
     public void add(String word)
     {
+        // create a pointer that starts at 'root'
         Node currentNode = root;
-        word = word.toUpperCase();
-        // FIXME: Implement this.
 
+        // convert input to uppercase for conversion to be effective
+        word = word.toUpperCase();
+        // FIXME: Implement this
+
+
+        // loop through each letter of the word
         for(int i = 0; i < word.length(); i++)
         {
-
+            // convert the character in the word to the ASCII int and convert to place in correct array position
             int index = charToInt(word.charAt(i));
 
+            // if the pointer's children does not contain a node at the character's position, create new node
+            // set the pointer's children's position to the new node
             if(currentNode.children[index] == null)
             {
                 Node child = new Node();
                 currentNode.children[index] = child;
             }
 
+            // change the pointer to the new node that was just created
             currentNode = currentNode.children[index];
 
         }
 
+        // set the last letter of the input word from default FALSE -> TRUE to indicate that it is a word when later being retrieved in contains()
         currentNode.isWord = true;
 
 
@@ -35,12 +44,12 @@ public class WordTrie
     public boolean contains(String word)
     {
         // FIXME: Implement this.
-        // check if i can get there without hitting null && if isWord = true;
 
         word = word.toUpperCase();
         Node currentNode = root;
 
 
+        // iterate the pointer to traverse through the trie and check if i can get there without hitting null && if isWord = true for the last letter of input word;
         for (int i = 0; i < word.length(); i++) {
 
             int index = charToInt(word.charAt(i));
