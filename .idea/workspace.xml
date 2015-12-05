@@ -38,13 +38,13 @@
       <file leaf-file-name="WordTrie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordTrie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.101123594">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.40449437">
+              <caret line="51" column="124" selection-start-line="51" selection-start-column="124" selection-end-line="51" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
-                <element signature="e#2121#2129#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2039#2040#0" expanded="true" />
+                <element signature="e#2123#2131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -454,9 +454,9 @@
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2121#2129#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2123#2131#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,13 +498,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordTrie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.101123594">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40449437">
+          <caret line="51" column="124" selection-start-line="51" selection-start-column="124" selection-end-line="51" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2121#2129#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2123#2131#0" expanded="true" />
           </folding>
         </state>
       </provider>

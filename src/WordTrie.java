@@ -49,7 +49,7 @@ public class WordTrie
         Node currentNode = root;
 
 
-        // iterate the pointer to traverse through the trie and check if i can get there without hitting null && if isWord = true for the last letter of input word;
+        // iterate the pointer to traverse through the trie and check if i can get there without hitting null && if isWord() = TRUE for the last letter of input word;
         for (int i = 0; i < word.length(); i++) {
 
             int index = charToInt(word.charAt(i));
